@@ -1,0 +1,23 @@
+body{
+    background-color: #141414 !important;
+    color: whitesmoke !important;
+    margin: 20px 20%;
+}
+.text-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    letter-spacing: 8px;
+    text-align: center;
+}
+.text-paragraph{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.btn-search{
+    display: block !important;
+    margin: auto;
+}
+iframe{
+    padding: 20px 10px;
+    margin: auto;
+}
