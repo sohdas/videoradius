@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class = "container">
+    <div class = "row container text-title">
+        <div class="container">
+            VIDEO RADIUS
+        </div>
+    </div>
+    <hr>
+    <br>
+    <div class = "row container">
+        <div class="col container">
+            <input id="radiusInput" class="form-control" type="text" placeholder="Enter Radius (feet)">    
+        </div>
+        <div class="col container">
+            <button id="searchButton" class="btn btn-primary btn-search" type="button" onclick="getVideos()">Search for Videos</button>
+        </div>
+        <div class="col container text-paragraph">
+            <span id="videoCount"></span>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row container" id = "videoContainer">    
+    </div>
+    <br>
+</div>
+{% endblock %}
